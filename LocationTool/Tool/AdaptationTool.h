@@ -7,6 +7,7 @@
 //  适配工具
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 @interface AdaptationTool : NSObject
 //按照320写 等比例放大长度
 + (CGFloat)getLayoutLongNumWithExtent:(CGFloat)extent;
